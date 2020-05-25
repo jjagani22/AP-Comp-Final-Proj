@@ -1,9 +1,0 @@
-Test File
-if (codeIsFinished){
-  brennan.giveHundredPercent();
-}
-else{
-  brennan.getBeat();
-}
-jay.getBeat();
-team.fail();
