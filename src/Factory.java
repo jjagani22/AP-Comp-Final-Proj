@@ -2,12 +2,13 @@ public class Factory {
 	private int cost;
 	private int input;
 	private int output;
-	private int researchCost = 1;
+	private int researchCost;
 
 	public Factory() {
-		int cost = 2000;
-		int input = 8;
-		int output = 1;
+		 cost = 2000;
+		input = 8;
+		output = 1;
+		researchCost = 1;
 	}
 
 	public void Upgrade() {
@@ -28,6 +29,10 @@ public class Factory {
 
 	public int getOutput() {
 		return output;
+	}
+
+	public int getResearchCost() {
+		return researchCost;
 	}
 }
 
